@@ -1,0 +1,105 @@
+#body{
+    background-color: purple;
+}
+#frame{
+    display: flex;
+    flex-direction: column;
+}
+#frame-navigation{
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+}
+#title{
+    flex: 1;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+#main-container{
+    /* background-color: blueviolet; */
+    flex: 5;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+#results{
+    /* background-color: cornflowerblue; */
+    flex: 2;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+#perfume{
+    margin-top: 25px;
+    height: 250px;
+}
+#avatar{
+    height: 350px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.sales{
+    display: flex;
+}
+#loser{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+#loser-name{
+    margin-right: 15px;
+}
+#winner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+.title-section-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#chose-products-container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#chose-products{
+    display: inline-flex;
+    align-items: center;
+}
+#employees{
+    margin-top: 65px;
+}
+.employee{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#show-results{
+    margin-right: 10px;
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#chose-container{
+    margin-top: 55px;
+}
+#footer{
+    height: 10px;
+}
+#label{
+    font-size: large;
+}
+#numbers{
+    width: 40px;
+    height: 25px;
+}

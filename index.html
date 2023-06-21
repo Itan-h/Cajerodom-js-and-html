@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Perfumes</title>
+    <link rel="stylesheet" href="/kata2Cajero/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body id="body">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <section id="frame">
+        <div id="title">
+            <h1>Perfumes Latinos</h1>
+        </div>
+        <section id="frame-navigation">
+            <div id="main-container">
+                <div class="title-section-container">
+                    <h3 class="title-section">Empleado del mes</h3>
+                </div>
+                <div id="winner">
+                    <h4>unknow</h4>
+                    <img src="https://static.vecteezy.com/system/resources/previews/021/548/095/non_2x/default-profile-picture-avatar-user-avatar-icon-person-icon-head-icon-profile-picture-icons-default-anonymous-user-male-and-female-businessman-photo-placeholder-social-network-avatar-portrait-free-vector.jpg"
+                        alt="imagen" id="avatar">
+                    <!-- <img src="https://img.freepik.com/vector-premium/vector-caracteres-icono-cara-feliz-avatar-mujer-sonriente-3d_313242-1220.jpg"
+                        alt="imagen" id="avatar"> -->
+                    <div class="sales">
+                        <h5>Venta:</h5>
+                        <h5>$</h5>
+                    </div>
+                </div>
+                <div id="loser">
+                    <div id="loser-name">
+                        <h5>unknow</h5>
+                    </div>
+                    <div class="sales">
+                        <h5>Venta:</h5>
+                        <h5> $</h5>
+                    </div>
+                </div>
+            </div>
+            <div id="results">
+                <div class="title-section-container">
+                    <h3>Ingresar datos</h3>
+                </div>
+                <div id="chose-container">
+                    <div id="chose-products-container">
+                        <div id="chose-products">
+                            <label for="chose-products" id="label">Elegir producto:</label>
+                            <select name="chose-products" id="select-products">
+                                <option value="0">Aqua</option>
+                                <option value="1">Emoción</option>
+                                <option value="2">Alegría</option>
+                                <option value="3">Frescura</option>
+                            </select>
+                            <input type="number" min="1" max="100" value="1" id="numbers">
+                        </div>
+                        <img src="https://thumbs.dreamstime.com/b/perfume-en-olor-botella-azul-profunda-5133828.jpg"
+                            alt="imagen" id="perfume">
+                        <div id="employees">
+                            <button class="employee" id="Juana">Juana</button>
+                            <button class="employee" id="Pedro">Pedro</button>
+                        </div>
+                    </div>
+                    <div id="show-results">
+                        <button id="start-show-results">Empleado del mes</button>
+                    </div>
+                </div>
+        </section>
+    </section>
+    <footer id="footer"></footer>
+    <script src="/kata2Cajero/index.js"></script>
+</body>
+
+</html>
